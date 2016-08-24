@@ -15,7 +15,7 @@ public class WhileDemo {
         //print the alphabet using a while loop 
         ch = 'a';
         while(ch <= 'z'){
-            System.out.print(ch);
+            System.out.print(ch+",");
             ch++;
         }
     }
