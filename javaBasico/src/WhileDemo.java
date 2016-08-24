@@ -8,7 +8,11 @@
  *
  * @author Plazari
  */
+
 public class WhileDemo {
+    public static While(){
+        return 'Esse metodo é legal';
+    }
     public static void main(String args[]){
         char ch;
         
@@ -18,5 +22,9 @@ public class WhileDemo {
             System.out.print(ch+",");
             ch++;
         }
+        
+        System.out.print(While());
     }
+    
+    
 }
