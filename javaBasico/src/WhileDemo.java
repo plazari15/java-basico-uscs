@@ -10,10 +10,9 @@
  */
 
 public class WhileDemo {
-    public static While(){
+    public static void main While(){
         return 'Esse metodo é legal';
-    }
-    public static void main(String args[]){
+        
         char ch;
         
         //print the alphabet using a while loop 
