@@ -19,6 +19,6 @@ public class VeiculoDemo {
         
         distancia = minivan.litrosTanque * minivan.kmPorLitro;
         
-        System.out.println("Mini van pode levar " + minivan.Passageiros + " a uma distancia de " + distancia);  
+        System.out.println("Minivan pode levar " + minivan.Passageiros + "pessoas. A uma distancia de " + distancia);  
     }
 }

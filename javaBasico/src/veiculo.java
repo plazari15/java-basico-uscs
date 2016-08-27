@@ -13,5 +13,3 @@ public class Veiculo {
     int litrosTanque;
     int kmPorLitro; 
 }
-
-}
