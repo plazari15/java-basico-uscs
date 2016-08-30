@@ -12,4 +12,8 @@ public class Veiculo {
     int Passageiros;
     int litrosTanque;
     int kmPorLitro; 
+    
+    void distancia(){
+        System.out.println("Distancia de " + litrosTanque * kmPorLitro);
+    }
 }
