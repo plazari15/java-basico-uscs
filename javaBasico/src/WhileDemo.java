@@ -10,8 +10,7 @@
  */
 
 public class WhileDemo {
-    public static void main While(){
-        return 'Esse metodo é legal';
+    public static void main (String args[]){
         
         char ch;
         
@@ -22,7 +21,7 @@ public class WhileDemo {
             ch++;
         }
         
-        System.out.print(While());
+        System.out.print();
     }
     
     

@@ -8,7 +8,7 @@
  *
  * @author Plazari
  */
-public class Veiculo {
+public class veiculo {
     int Passageiros;
     int litrosTanque;
     int kmPorLitro; 

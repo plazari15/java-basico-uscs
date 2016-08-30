@@ -8,10 +8,11 @@
  *
  * @author Plazari
  */
-public class DoisVeiculosDemo {
+public class DoisVeiculosDemoNovo {
+    
     public static void main(String args[]) {
-        veiculo minivan = new veiculo();
-        veiculo sportcar = new veiculo();
+        veiculo minivan = new veiculo ();
+        veiculo sportcar = new veiculo ();
         int distancia, distancia2;
         
         minivan.Passageiros = 7;
@@ -21,12 +22,14 @@ public class DoisVeiculosDemo {
         sportcar.Passageiros = 2;
         sportcar.litrosTanque = 14;
         sportcar.kmPorLitro = 12;
-                
-        distancia = minivan.litrosTanque * minivan.kmPorLitro;
-        distancia2 = sportcar.litrosTanque * sportcar.kmPorLitro;
-   
         
-        System.out.println("Minivan pode levar " + minivan.Passageiros + " pessoas. A uma distancia de " + distancia); 
-        System.out.println("Sportcar pode levar " + sportcar.Passageiros + " pessoas. A uma distancia de " + distancia2);
+        
+        
+        System.out.println("Minivan pode levar " + minivan.Passageiros + " pessoas. A uma distancia de " );
+        minivan.distancia();
+        
+        System.out.println("Sportcar pode levar " + sportcar.Passageiros + " pessoas. A uma distancia de ");
+        sportcar.distancia();
     }
+    
 }

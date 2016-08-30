@@ -10,7 +10,7 @@
  */
 public class VeiculoDemo {
     public static void main(String args[]) {
-        Veiculo minivan = new Veiculo();
+        veiculo minivan = new veiculo();
         int distancia;
         
         minivan.Passageiros = 7;
